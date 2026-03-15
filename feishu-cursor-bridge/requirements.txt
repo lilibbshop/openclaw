@@ -1,0 +1,6 @@
+flask>=2.0
+requests>=2.28
+# 长连接模式（本地无需域名）依赖
+lark-oapi>=1.2.0
+# 若本机使用 SOCKS 代理访问外网（如飞书），需安装以支持代理
+python-socks[asyncio]>=2.0

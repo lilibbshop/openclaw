@@ -1,0 +1,26 @@
+启动时间: 2026-03-04T19:16:04+08:00
+Traceback (most recent call last):
+  File "/Users/ian/openclaw/feishu-cursor-bridge/app_ws.py", line 181, in <module>
+    main()
+    ~~~~^^
+  File "/Users/ian/openclaw/feishu-cursor-bridge/app_ws.py", line 167, in main
+    .register_p2_customized_event("im.message.message_read_v1", _do_p2_im_message_read_v1)
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ian/openclaw/feishu-cursor-bridge/.venv/lib/python3.13/site-packages/lark_oapi/event/dispatcher_handler.py", line 210, in register_p2_customized_event
+    raise EventException(f"processor already registered, type: {t}")
+lark_oapi.core.exception.EventException: processor already registered, type: p2.im.message.message_read_v1
+启动时间: 2026-03-04T19:16:57+08:00
+Traceback (most recent call last):
+  File "/Users/ian/openclaw/feishu-cursor-bridge/app_ws.py", line 181, in <module>
+    main()
+    ~~~~^^
+  File "/Users/ian/openclaw/feishu-cursor-bridge/app_ws.py", line 167, in main
+    .register_p2_customized_event("im.message.message_read_v1", _do_p2_im_message_read_v1)
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ian/openclaw/feishu-cursor-bridge/.venv/lib/python3.13/site-packages/lark_oapi/event/dispatcher_handler.py", line 210, in register_p2_customized_event
+    raise EventException(f"processor already registered, type: {t}")
+lark_oapi.core.exception.EventException: processor already registered, type: p2.im.message.message_read_v1
+启动时间: 2026-03-04T19:17:16+08:00
+启动飞书长连接（本地无需域名），收到消息后将转发给 Cursor 执行…
+[Lark] [2026-03-04 19:17:19,498] [INFO] connected to wss://msg-frontier.feishu.cn/ws/v2?fpid=493&aid=552564&device_id=7613357977702321376&access_key=d33ea6950f9f35c6e0a036464b95d444&service_id=33554678&ticket=4a70e908-2f44-4573-b0a4-aa61508f5bf3 [conn_id=7613357977702321376]
+启动时间: 2026-03-04T19:18:00+08:00

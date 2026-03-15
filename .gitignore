@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# Editor / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Env / secrets (if any later)
+.env
+.env.local
+*.pem
